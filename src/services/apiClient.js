@@ -3,7 +3,7 @@ import axios from "axios";
 
 // ✅ 기본 axios 인스턴스 생성
 export const api = axios.create({
-    baseURL: "http://a083145-back-alb-1451270773.ap-northeast-2.elb.amazonaws.com/books/all",   // 백엔드 서버 주소
+    baseURL: "http://a083145-back-alb-1451270773.ap-northeast-2.elb.amazonaws.com",   // 백엔드 서버 주소
     headers: {
         "Content-Type": "application/json",
     },
